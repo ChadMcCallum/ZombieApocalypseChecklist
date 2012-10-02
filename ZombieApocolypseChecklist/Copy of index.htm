@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Zombie Apocolypse Checklist</title>
+    <script type='text/javascript' src="http://rtigger.com/cdn/jquery-1.8.2.min.js"></script>
+    <script type='text/javascript' src="http://rtigger.com/cdn/underscore-min.js"></script>
+    <script type='text/javascript' src="http://rtigger.com/cdn/backbone-min.js"></script>
+    <script type='text/javascript' src="app.js"></script>
+    <style type='text/css'>
+        body {
+            font-size: 24pt;
+        }
+    </style>
+</head>
+    <body id='application'>
+        <img src="http://rtigger.com/cdn/zombie.jpg" align='left'/>
+        <div id='item-list'></div>
+        <div id='new-item-form'>
+            <input type='text' id='new-item-content'/>
+            <button type='submit' id='submit-new-item'>Add</button>
+        </div>
+        <script type='text/html' id='item-template'>
+            <input type="checkbox" class="isDone" <% if(IsCompleted == true) { %> checked='checked' <% } %>/>
+            <span <% if(IsCompleted == true) { %> style='text-decoration: line-through' <% } %>>
+            <%- Content %>
+        </span>
+            <button class="remove-item">X</button>
+        </script>
+    </body>
+</html>

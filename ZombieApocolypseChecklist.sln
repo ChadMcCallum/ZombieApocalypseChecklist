@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombieApocolypseChecklist", "ZombieApocolypseChecklist\ZombieApocolypseChecklist.csproj", "{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZombieApocolypseChecklist.Data", "ZombieApocolypseChecklist.Data\ZombieApocolypseChecklist.Data.csproj", "{D0D48CB7-A6F3-4302-B782-146402D4B021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{58C30DC0-A1F3-404B-8EA7-9FEA0E380106}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Debug|x86.ActiveCfg = Debug|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Debug|x86.Build.0 = Debug|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Release|Any CPU.ActiveCfg = Release|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Release|x86.ActiveCfg = Release|x86
+		{D0D48CB7-A6F3-4302-B782-146402D4B021}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
